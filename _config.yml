@@ -17,12 +17,10 @@ title: Farmacia Deluigi
 subtitle: del Dott. Roberto Deluigi
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  La Farmacia Deluigi nasce nel 1997 e offre servizi di telemedicina, tamponi, autoanalisi, preparazioni galeniche, prenotazioni CUP e ha come prerogativa la cura e il benessere della persona. OSSIA TU!
+twitter_username: 
+github_username: 
+minimal_mistakes_skin: contrast
 search: true
 
 # Build settings
@@ -31,7 +29,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -63,7 +61,7 @@ plugins:
 repository: FarmaDelu/FarmaciaDeluigi
 
 author:
-  name   : "First Lastname"
+  name   : "Federico Deluigi"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
