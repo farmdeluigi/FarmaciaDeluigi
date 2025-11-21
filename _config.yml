@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "it-IT"
 logo: /assets/images/logo.png
 title: Farmacia Deluigi 
 subtitle: del Dott. Roberto Deluigi
@@ -59,27 +60,27 @@ plugins:
 # NON CAMBIARE
 repository: FarmaDelu/FarmaciaDeluigi
 
-#author:
-#  name   : "Farmacia Deluigi"
-#  avatar : "/assets/images/bio-photo.jpg"
-#  bio    : "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
-#  links:
-#    - label: "Trovaci"
-#      icon: "fa-solid fa-location-dot fa-lg" 
-#      url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
-#    - label: "Instagram"
-#      icon: "fab fa-instagram fa-lg"
-#      url: "https://www.instagram.com/farmaciadeluigi/"
+author:
+  name   : "Farmacia Deluigi"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
+  links:
+    - label: "Trovaci"
+      icon: "fa-solid fa-location-dot fa-lg" 
+      url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
+    - label: "Instagram"
+      icon: "fab fa-instagram fa-lg"
+      url: "https://www.instagram.com/farmaciadeluigi/"
 
-sidebar:
-  - title: "Farmacia Deluigi"
-    text: "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
-  - label: "Trovaci"
-    icon: "fa-solid fa-location-dot fa-lg" 
-    url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
-  - label: "Instagram"
-    icon: "fab fa-instagram fa-lg"
-    url: "https://www.instagram.com/farmaciadeluigi/"
+#sidebar:
+#  - title: "Farmacia Deluigi"
+#    text: "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
+#  - label: "Trovaci"
+#    icon: "fa-solid fa-location-dot fa-lg" 
+#    url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
+#  - label: "Instagram"
+#    icon: "fab fa-instagram fa-lg"
+#    url: "https://www.instagram.com/farmaciadeluigi/"
 
 footer:
   links:
