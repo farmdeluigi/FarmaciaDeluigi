@@ -19,8 +19,6 @@ subtitle: del Dott. Roberto Deluigi
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   La Farmacia Deluigi nasce nel 1997 e offre servizi di telemedicina, tamponi, autoanalisi, preparazioni galeniche, prenotazioni CUP e ha come prerogativa la cura e il benessere della persona. OSSIA TU!
-twitter_username: 
-github_username: 
 minimal_mistakes_skin: contrast
 search: true
 
@@ -32,7 +30,7 @@ remote_theme: mmistakes/minimal-mistakes@4.27.3
 permalink: /:categories/:title/
 paginate: 3 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones # se non è settata usa la timezone del sistema operativo
 
 include:
   - _pages
@@ -67,10 +65,10 @@ author:
   bio    : "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
   links:
     - label: "Trovaci"
-      icon: "fa-map-marker"
+      icon: "fa-fw fa-map-marker fa-lg"
       url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-fw fa-instagram fa-lg"
       url: "https://www.instagram.com/farmaciadeluigi/"
 
 footer:
@@ -94,7 +92,7 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
