@@ -62,9 +62,9 @@ plugins:
 repository: FarmaDelu/FarmaciaDeluigi
 
 author:
-  name   : "Federico Deluigi"
+  name   : "Farmacia Deluigi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "My awesome biography \nconstrained to a sentence or    two goes here. #header   prova"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
