@@ -64,11 +64,10 @@ repository: FarmaDelu/FarmaciaDeluigi
 author:
   name   : "Farmacia Deluigi"
   avatar : "/assets/images/bio-photo.jpg"
-  #bio    : "Siamo aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00"
-  bio    : "Aperti Lun-Sab 08:00-13:00 e 15:00-20:00"
+  bio    : "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
   links:
     - label: "Trovaci"
-      icon: "fas fa-fw fa-map-marker"
+      icon: "fa-map-marker"
       url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
