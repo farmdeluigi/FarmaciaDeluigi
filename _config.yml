@@ -65,7 +65,7 @@ author:
   bio    : "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
   links:
     - label: "Trovaci"
-      icon: "fab fa-map-marker fa-lg"
+      icon: "fa-light fa-location-dot fa-lg" 
       url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "Instagram"
       icon: "fab fa-instagram fa-lg"
