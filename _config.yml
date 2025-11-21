@@ -64,20 +64,15 @@ repository: FarmaDelu/FarmaciaDeluigi
 author:
   name   : "Farmacia Deluigi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography \nconstrained to a sentence or    two goes here. #header   prova"
+  #bio    : "Siamo aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00"
+  bio    : "Aperti Lun-Sab 08:00-13:00 e 15:00-20:00"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+    - label: "Trovaci"
+      icon: "fas fa-fw fa-map-marker"
+      url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/farmaciadeluigi/"
 
 footer:
   links:
