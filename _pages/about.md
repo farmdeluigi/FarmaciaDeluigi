@@ -3,6 +3,11 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Farmacia Deluigi, professionalità ed efficienza al servizio della persona.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Vicina al centro di Rimini allo stesso tempo facilmente raggiungibile in auto e con i mezzi pubblici, la farmacia Deluigi, da oltre 20 anni, rappresenta il connubio perfetto tra innovazione del servizio, tradizione e attenzione alla persona.
+
+I titolari Roberto e Valentina, e tutti i loro collaboratori, sono costantemente impegnati nel fornire la risposta più adatta alle singole esigenze, consigli per la prevenzione e il trattamento delle principali patologie stagionali e croniche, con la massima disponibilità e riservatezza.
+
+Se l’integratore o il farmaco che cercate è difficilmente reperibile, saremo lieti di cercarlo per voi e farvelo avere nel tempo più breve possibile.
+Qualora non fosse possibile ci adopereremo per indicarne e reperirne uno equivalente.
