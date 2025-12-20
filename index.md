@@ -8,7 +8,7 @@ header:
   overlay_image: 
   actions:
     - label: "<i class='fa-solid fa-location-dot fa-lg'></i> Trovaci"
-      url: "/find-us/"
+      url: "/trovaci/"
     - label: "Prova"
       url: "/about/"
 excerpt: >
