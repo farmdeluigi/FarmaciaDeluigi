@@ -1,6 +1,6 @@
 ---
-permalink: /find-us/
-title: "Find Us"
+permalink: /trovaci/
+title: "Trovaci"
 author_profile: false
 ---
 
