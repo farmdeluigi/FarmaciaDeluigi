@@ -63,7 +63,7 @@ repository: FarmaDelu/FarmaciaDeluigi
 author:
   name   : "Farmacia Deluigi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
+  bio    : "Aperti ogni giorno tranne la Domenica 08:00 - 13:00 e 15:00 - 20:00."
   links:
     - label: "Trovaci"
       icon: "fa-solid fa-location-dot fa-lg" 
@@ -91,7 +91,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: false
       share: true
