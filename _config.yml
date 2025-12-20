@@ -72,16 +72,6 @@ author:
       icon: "fab fa-instagram fa-lg"
       url: "https://www.instagram.com/farmaciadeluigi/"
 
-#sidebar:
-#  - title: "Farmacia Deluigi"
-#    text: "Aperti ogni giorno tranne la Domenica dalle 08:00 alle 13:00 e dalle 15:00 alle 20:00."
-#  - label: "Trovaci"
-#    icon: "fa-solid fa-location-dot fa-lg" 
-#    url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
-#  - label: "Instagram"
-#    icon: "fab fa-instagram fa-lg"
-#    url: "https://www.instagram.com/farmaciadeluigi/"
-
 footer:
   links:
     - label: "Twitter"
