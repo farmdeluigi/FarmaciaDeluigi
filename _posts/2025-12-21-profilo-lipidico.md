@@ -1,15 +1,24 @@
 ---
-classes: wide
 title: "Profilo Lipidico Completo"
-subtitle: "Un controllo semplice per la salute del cuore"
+toc: true
+toc_sticky: true
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
   - profilo
   - lipidico
-  - profilo lipidico
+  - profilo lipidico completo
+  - salute cardiovascolare
+  - malattie cardiovascolari
+  - grassi nel sangue
+  - arteriosclerosi
+  - infarto
+  - ictus
+  - trigliceridi
 ---
+
+#### Un controllo semplice per la salute del cuore
 
 Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue.
 
