@@ -1,11 +1,12 @@
 @charset "utf-8";
 
+// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
+$link-color: #0f7125 !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 // CUSTOM CSS HERE
 
-// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
-//$link-color: #0f7125 !default;
 
 //body { background: red; }
