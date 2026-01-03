@@ -6,7 +6,7 @@ search: false
 @charset "utf-8";
 
 // Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
-$link-color: #0f7125 !default;
+$link-color: #0f7125;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
