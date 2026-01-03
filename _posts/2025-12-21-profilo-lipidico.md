@@ -20,7 +20,10 @@ tags:
 
 ## Un controllo semplice per la salute del cuore
 
-Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue.  
+https://www.google.com
+
+Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue.
+
 Tramite questo esame si ha l’analisi di Colesterolo Totale, Colesterolo LDL, Colesterolo HDL e Trigliceridi tramite un rapido prelievo di sangue capillare, eseguito dal polpastrello del dito.
 
 Si tratta di un servizio rapido, minimamente invasivo e affidabile, pensato per offrire al cittadino uno strumento concreto di prevenzione e monitoraggio, senza la necessità di recarsi in laboratorio.
