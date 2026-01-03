@@ -5,11 +5,12 @@
 
 // Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
 $link-color: #0f7125;
+$primary-color: #228B39;
+$footer-background-color: #013842;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 // CUSTOM CSS HERE
-
 
 //body { background: red; }
