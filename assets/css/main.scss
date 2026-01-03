@@ -8,6 +8,7 @@ $link-color: #0f7125;
 $primary-color: #1E6471;
 $footer-background-color: #0F7125;
 
+// Aggiunge indentazione paragrafo, si può customizzare di quanto indenta con un'altra var
 $paragraph-indent: true;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
