@@ -1,13 +1,13 @@
 @charset "utf-8";
 
+// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
+$link-color: rgb(15, 113, 37);
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'contrast' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 // CUSTOM CSS HERE
 
-// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
-$link-color: rgb(15, 113, 37);
 
 $paragraph-indent: 'true';
 
