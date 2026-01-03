@@ -1,17 +1,18 @@
----
-//# Only the main Sass file needs front matter (the dashes are enough)
-search: false
----
-
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
+
+$link-color: #0F7125;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'contrast' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 // CUSTOM CSS HERE
 
-$global-font-family: 'Comic Sans';
-$header-font-family: 'Comic Sans';
-$caption-font-family: 'Comic Sans';
+$paragraph-indent: true;
 
-body { background: red; }
+//$global-font-family: 'Comic Sans';
+//$header-font-family: 'Comic Sans';
+//$caption-font-family: 'Comic Sans';
+
+//body { background: red; }
