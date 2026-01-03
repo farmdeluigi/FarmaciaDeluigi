@@ -8,6 +8,8 @@ $link-color: #0f7125;
 $primary-color: #013842;
 $footer-background-color: #228B39;
 
+$paragraph-indent: 'true';
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
