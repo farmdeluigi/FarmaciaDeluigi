@@ -1,6 +1,4 @@
---- // Only the main Sass file needs front matter (the dashes are enough) 
-//search: false 
---- @charset "utf-8";
+--- --- @charset "utf-8";
 
 // Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
 $link-color: #0f7125;
@@ -15,11 +13,11 @@ $paragraph-indent: true;
 
 // CUSTOM CSS HERE
 
-.grid__item {
-    border: 1px solid #000000;
-    border-radius: 4px;
-    padding: 1rem;
-}
+//.grid__item {
+//    border: 1px solid #000000;
+//    border-radius: 4px;
+//    padding: 1rem;
+//}
 
 body {
     background: red;
