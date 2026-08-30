@@ -1,8 +1,9 @@
---- 
-
---- 
+---
+---
 
 @charset "utf-8";
+
+// Changing the format of the above lines SILENTLY breaks the site 
 
 // Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
 $link-color: #0f7125;
@@ -17,12 +18,12 @@ $paragraph-indent: true;
 
 // CUSTOM CSS HERE
 
-//.grid__item {
-//    border: 1px solid #000000;
-//    border-radius: 4px;
-//    padding: 1rem;
-//}
-
-body {
-    background: red;
+.grid__item {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 1rem;
 }
+
+//body {
+//    background: red;
+//}
