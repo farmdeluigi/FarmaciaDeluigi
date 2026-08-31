@@ -4,8 +4,13 @@ toc: true
 toc_sticky: true
 excerpt_separator: "<!--more-->"
 header:
-  image: /assets/images/featured-image.jpg
-  caption: "Photo credit: [Source](link)"
+  overlay_image: /assets/images/profilo-lipidico.jpg
+  caption: "Photo credit: [Tahir Xəlfəquliyev](https://www.pexels.com/photo/flat-lay-of-veterinary-medical-supplies-on-table-33394245/)"
+  overlay_filter: 0.5
+  #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
+  actions:
+    - label: "Prenota Profilo Lipidico"
+      url: ""
 categories:
   - Blog
 tags:
