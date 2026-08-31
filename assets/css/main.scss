@@ -19,14 +19,22 @@ $paragraph-indent: true;
 
 // CUSTOM CSS HERE
 
+/** Use !important for:
+- Colors (especially links and buttons).
+- Text decorations (underlines...).
+- Backgrounds on complex elements (buttons, nav items...).
+- Any property where the browser inspector shows your rule being crossed out by a theme rule with !important.
+Avoid for layout, spacing, and structural changes unless absolutely necessary.
+*/
+
 .archive__item {
     border: 1px solid $link-color;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 0.5rem 1rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
     min-height: 3rem; //48px touch target
 }
 
-.archive__item-title, .archive__item-title no-toc p-name {
-    color: $link-color;
+.archive__item-title a{
+    color: $link-color !important;
 }
