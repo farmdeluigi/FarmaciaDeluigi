@@ -3,11 +3,11 @@ title: "Profilo Lipidico Completo"
 header:
   overlay_image: /assets/images/profilo-lipidico.jpg
   caption: "Photo credit: [Tahir Xəlfəquliyev](https://www.pexels.com/photo/flat-lay-of-veterinary-medical-supplies-on-table-33394245/)"
-  overlay_filter: 0.6 #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
+  overlay_filter: 0.5 #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
   actions:
     - label: "Prenota Profilo Lipidico"
+      icon: "fa-solid fa-comment fa-lg"
       url: "https://google.com/"
-      icon: "fa-solid fa-comment"
 toc: true
 toc_sticky: true
 categories:
