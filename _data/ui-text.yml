@@ -334,7 +334,7 @@ it: &DEFAULT_IT
   breadcrumb_separator       : "/"
   menu_label                 :
   search_label               :
-  toc_label                  : "Indice della pagina"
+  toc_label                  : "Indice Pagina"
   ext_link_label             : "Link"
   less_than                  : "meno di"
   minute_read                : "minuto/i di lettura"
