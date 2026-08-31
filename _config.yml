@@ -56,6 +56,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-multiple-languages-plugin
 
 # NON CAMBIARE
 repository: FarmaDelu/FarmaciaDeluigi
@@ -110,3 +111,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+languages: ["it", "en"]
+default_lang: "it"

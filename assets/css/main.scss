@@ -46,10 +46,25 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
     &:hover {
         transform: translateY(-4px) scale(1.02);
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-        background-color: #00d9ff27; //$primary-color with reduced opacity
+        background-color: #00d9ff1a; //$primary-color with reduced opacity
     }
 }
 
 .archive__item-title a{
     color: $link-color !important;
+}
+
+.language-switcher-item {
+  display: inline-block;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+.language-selector {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
 }
