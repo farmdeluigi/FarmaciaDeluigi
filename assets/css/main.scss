@@ -38,11 +38,15 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
 
     min-height: 3rem; //48px touch target
     
-    transition: transform 250ms ease-out, box-shadow 250ms ease-out;
+    transition: 
+        transform 250ms ease-out, 
+        box-shadow 250ms ease-out
+        background-color 200ms ease;
 
     &:hover {
         transform: translateY(-4px) scale(1.02);
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        background-color: rgba(0, 115, 255, 0.06);
     }
 }
 
