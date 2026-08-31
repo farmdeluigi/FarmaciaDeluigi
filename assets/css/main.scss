@@ -23,6 +23,11 @@ $paragraph-indent: true;
     border: 1px solid #1E6471;
     border-radius: 4px;
     padding: 1rem;
+    margin: 1rem 0;
+}
+
+.archive__item-title {
+    color: $link-color;
 }
 
 //body {
