@@ -40,7 +40,7 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
     
     transition: 
         transform 250ms ease-out, 
-        box-shadow 250ms ease-out
+        box-shadow 250ms ease-out,
         background-color 200ms ease;
 
     &:hover {
