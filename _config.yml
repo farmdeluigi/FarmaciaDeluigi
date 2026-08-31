@@ -118,4 +118,4 @@ default_lang: "it"
 exclude_from_localizations: ["javascript", "images", "css", ".git"]
 
 # Default post teaser used when no other is specified
-teaser: /assets/images/default-teaser.jpg
+#teaser: /assets/images/default-teaser.jpg

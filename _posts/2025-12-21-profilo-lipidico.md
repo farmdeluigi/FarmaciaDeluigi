@@ -1,16 +1,15 @@
 ---
 title: "Profilo Lipidico Completo"
-toc: true
-toc_sticky: true
-excerpt_separator: "<!--more-->"
+#toc: true
+#toc_sticky: true
 header:
   overlay_image: /assets/images/profilo-lipidico.jpg
   caption: "Photo credit: [Tahir Xəlfəquliyev](https://www.pexels.com/photo/flat-lay-of-veterinary-medical-supplies-on-table-33394245/)"
-  overlay_filter: 0.5
+  overlay_filter: 0.1
   #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
   actions:
     - label: "Prenota Profilo Lipidico"
-      url: ""
+      url: "h"
 categories:
   - Blog
 tags:
@@ -24,6 +23,7 @@ tags:
   - infarto
   - ictus
   - trigliceridi
+excerpt_separator: "<!--more-->"
 ---
 
 ## Un controllo semplice per la salute del cuore
