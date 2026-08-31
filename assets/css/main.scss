@@ -30,11 +30,20 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
 .archive__item {
     border: 1px solid $link-color;
     border-radius: 4px;
+
     padding-top: 0.75rem;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-bottom: 0.75rem;
+
     min-height: 3rem; //48px touch target
+    
+    transition: transform 250ms ease-out, box-shadow 250ms ease-out;
+
+    &:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
 }
 
 .archive__item-title a{
