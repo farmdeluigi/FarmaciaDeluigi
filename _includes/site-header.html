@@ -38,4 +38,11 @@
       
     </ul>
   </div>
+  <!-- DEBUG: Remove this later -->
+<div style="background: yellow; padding: 10px; border: 2px solid red;">
+  Languages count: {{ site.languages.size }}
+  Languages list: {{ site.languages | join: ", " }}
+  Default lang: {{ site.default_lang }}
+  Current page lang: {{ page.lang }}
+</div>
 </nav>

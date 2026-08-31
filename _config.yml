@@ -114,3 +114,5 @@ tag_archive:
 
 languages: ["it", "en"]
 default_lang: "it"
+# Some plugins require this to expose the languages list
+exclude_from_localizations: ["javascript", "images", "css", ".git"]
