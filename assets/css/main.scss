@@ -1,9 +1,13 @@
 ---
+search: false
 ---
+
+// Changing the format of the above lines SILENTLY breaks the site 
 
 @charset "utf-8";
 
-// Changing the format of the above lines SILENTLY breaks the site 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 // Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
 $link-color: #0f7125;
@@ -13,15 +17,12 @@ $footer-background-color: #0F7125;
 // Aggiunge indentazione paragrafo, si può customizzare di quanto indenta con un'altra var
 $paragraph-indent: true;
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
 // CUSTOM CSS HERE
 
-.grid__item {
-    border: 1px solid #000000;
-    border-radius: 4px;
-    padding: 1rem;
+.archive__item {
+    border: 5px solid #000000;
+    //border-radius: 4px;
+    //padding: 1rem;
 }
 
 //body {
