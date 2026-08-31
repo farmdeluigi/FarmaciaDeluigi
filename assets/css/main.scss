@@ -20,16 +20,13 @@ $paragraph-indent: true;
 // CUSTOM CSS HERE
 
 .archive__item {
-    border: 1px solid #1E6471;
-    border-radius: 4px;
-    padding: 1rem;
-    margin: 1rem 0;
+    border: 1px solid $link-color;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+    min-height: 3rem; //48px touch target
 }
 
 .archive__item-title, .archive__item-title no-toc p-name {
     color: $link-color;
 }
-
-//body {
-//    background: red;
-//}
