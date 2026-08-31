@@ -337,7 +337,7 @@ it: &DEFAULT_IT
   toc_label                  : "Indice Pagina"
   ext_link_label             : "Link"
   less_than                  : "meno di"
-  minute_read                : "minuto/i di lettura"
+  minute_read                : "minuti di lettura"
   share_on_label             : "Condividi"
   meta_label                 :
   tags_label                 : "Tags:"
