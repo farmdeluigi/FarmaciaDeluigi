@@ -5,8 +5,7 @@ header:
   caption: "Photo credit: [Tahir Xəlfəquliyev](https://www.pexels.com/photo/flat-lay-of-veterinary-medical-supplies-on-table-33394245/)"
   overlay_filter: 0.5 #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
   actions:
-    - label: "Prenota Profilo Lipidico"
-      icon: "fa-solid fa-comment fa-lg"
+    - label: "<i class='fa-solid fa-comment fa-lg'></i> Prenota Profilo Lipidico"
       url: "https://google.com/"
 toc: true
 toc_sticky: true
