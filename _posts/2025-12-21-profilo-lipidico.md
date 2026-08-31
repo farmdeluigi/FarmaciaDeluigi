@@ -1,15 +1,15 @@
 ---
 title: "Profilo Lipidico Completo"
-toc: true
-toc_sticky: true
 header:
   overlay_image: /assets/images/profilo-lipidico.jpg
   caption: "Photo credit: [Tahir Xəlfəquliyev](https://www.pexels.com/photo/flat-lay-of-veterinary-medical-supplies-on-table-33394245/)"
-  overlay_filter: 0.1
-  #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
+  overlay_filter: 0.6 #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
   actions:
     - label: "Prenota Profilo Lipidico"
-      url: ""
+      url: "https://google.com/"
+      icon: "fa-brands fa-whatsapp"
+toc: true
+toc_sticky: true
 categories:
   - Blog
 tags:
@@ -26,7 +26,9 @@ tags:
 excerpt_separator: "<!--more-->"
 ---
 
+
 Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue.
+
 
 ## Un controllo semplice per la salute del cuore
 
