@@ -3,6 +3,9 @@ title: "Profilo Lipidico Completo"
 toc: true
 toc_sticky: true
 excerpt_separator: "<!--more-->"
+header:
+  image: /assets/images/featured-image.jpg
+  caption: "Photo credit: [Source](link)"
 categories:
   - Blog
 tags:
