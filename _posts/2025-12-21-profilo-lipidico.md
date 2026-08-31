@@ -7,7 +7,7 @@ header:
   actions:
     - label: "Prenota Profilo Lipidico"
       url: "https://google.com/"
-#toc: true
+toc: true
 #toc_sticky: true
 categories:
   - Blog
