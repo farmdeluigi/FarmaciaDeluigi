@@ -8,7 +8,7 @@ header:
     - label: "<i class='fa-brands fa-whatsapp fa-lg'></i> Prenota Esame"
       url: "https://google.com/"
     - label: "<i class='fa-solid fa-question fa-lg'></i> Come si svolge"
-      url: "#come-si-svolge-lesame-in-farmacia"
+      url: "#come-si-svolge-lesame-in-farmacia" #goes directly to section
 toc: true
 toc_sticky: true
 categories:
