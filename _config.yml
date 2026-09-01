@@ -23,10 +23,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 minimal_mistakes_skin: contrast
 search: true
 
+baseurl: "/FarmaciaDeluigi"
+url: "https://farmdeluigi.github.io"
+
 # Build settings
 markdown: kramdown
-# Metti tra virgolette below se ci sono casini
-remote_theme: mmistakes/minimal-mistakes@4.28.1
+theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
 paginate: 3 # amount of posts to show
@@ -54,9 +56,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-  - jekyll-multiple-languages-plugin
 
 # NON CAMBIARE
 repository: FarmaDelu/FarmaciaDeluigi
@@ -112,10 +112,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-languages: ["it", "en"]
-default_lang: "it"
-# Some plugins require this to expose the languages list
-exclude_from_localizations: ["javascript", "images", "css", ".git"]
 
 # Default post teaser used when no other is specified
-#teaser: /assets/images/default-teaser.jpg
+teaser: /assets/images/default-teaser.jpg

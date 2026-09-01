@@ -1,0 +1,74 @@
+// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
+$link-color: #0f7125;
+$primary-color: #1E6471;
+$footer-background-color: #0F7125;
+
+/** Use !important for:
+- Colors (especially links and buttons).
+- Text decorations (underlines...).
+- Backgrounds on complex elements (buttons, nav items...).
+- Any property where the browser inspector shows your rule being crossed out by a theme rule with !important.
+Avoid for layout, spacing, and structural changes unless absolutely necessary.
+*/
+
+.archive__item {
+    border: 1px solid #00b32a00; //transparent border so we can make it appear on hover without shifting content
+    border-radius: 4px;
+
+    padding-top: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0.75rem;
+
+    min-height: 3rem; //48px touch target
+
+    transition:
+        transform 250ms ease-out,
+        box-shadow 250ms ease-out,
+        background-color 200ms ease;
+
+    &:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        background-color: #00d9ff1a; //$primary-color with reduced opacity
+        border: 1px solid #00b32a8e;
+    }
+}
+
+.archive__item-title a {
+    color: $link-color !important;
+}
+
+// left-aligned teaser
+.archive__item {
+    &.archive__item--teaser-list {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .archive__item-teaser--list {
+        flex-shrink: 0;
+
+        .archive__item-teaser--list-img {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+    }
+
+    .archive__item-body {
+        flex: 1;
+    }
+}
+// mobile adjust
+@media (max-width: 600px) {
+  .archive__item--teaser-list {
+    flex-direction: column;
+  }
+  .archive__item-teaser--list-img {
+    width: 100%;
+    height: auto;
+  }
+}

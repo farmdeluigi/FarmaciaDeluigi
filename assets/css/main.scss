@@ -1,70 +1,16 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
 
-// Changing the format of the above lines SILENTLY breaks the site 
-
 @charset "utf-8";
 
+// Need to import before theme
+@import "custom/variables";
+
+// Theme will read the variables
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Base color HEX preso dal Logo: #228b37 - https://paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr
-$link-color: #0f7125;
-$primary-color: #1E6471;
-$footer-background-color: #0F7125;
-
-// Aggiunge indentazione paragrafo, si può customizzare di quanto indenta con un'altra var
-$paragraph-indent: true;
-
-// CUSTOM CSS HERE
-
-/** Use !important for:
-- Colors (especially links and buttons).
-- Text decorations (underlines...).
-- Backgrounds on complex elements (buttons, nav items...).
-- Any property where the browser inspector shows your rule being crossed out by a theme rule with !important.
-Avoid for layout, spacing, and structural changes unless absolutely necessary.
-*/
-
-.archive__item {
-    border: 1px solid #4c6f54;
-    border-radius: 4px;
-
-    padding-top: 0.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-bottom: 0.75rem;
-
-    min-height: 3rem; //48px touch target
-    
-    transition: 
-        transform 250ms ease-out, 
-        box-shadow 250ms ease-out,
-        background-color 200ms ease;
-
-    &:hover {
-        transform: translateY(-4px) scale(1.02);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-        background-color: #00d9ff1a; //$primary-color with reduced opacity
-    }
-}
-
-.archive__item-title a{
-    color: $link-color !important;
-}
-
-.language-switcher-item {
-  display: inline-block;
-  margin-left: 1rem;
-  vertical-align: middle;
-}
-
-.language-selector {
-  background: transparent;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 2px 5px;
-  font-size: 0.8rem;
-  cursor: pointer;
-}
+// Override CSS with our custom one 
+@import "custom/custom";
