@@ -1,5 +1,5 @@
 main:
-   - title: "Annunci"
+   - title: "Articoli"
      url: /posts/
-   - title: "Chi Siamo"
+   - title: "La Farmacia"
      url: /about/
