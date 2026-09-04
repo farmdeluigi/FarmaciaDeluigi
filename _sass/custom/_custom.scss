@@ -45,30 +45,89 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
         display: flex;
         align-items: flex-start;
         gap: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+        .archive__item-body {
+            .page__meta {
+                margin-top: 0.25rem;
+            }
+        }
     }
 
+    // Thumbnail container
     .archive__item-teaser--list {
-        flex-shrink: 0;
+        flex: 0 0 220px; //thumb area, fixed width
+        max-width: 220px;
 
-        .archive__item-teaser--list-img {
-            width: 120px;
-            height: 80px;
-            object-fit: cover;
-            border-radius: 4px;
+        img {
+            width: 100%;
+            height: 140px; //~3:2 aspect ratio
+            object-fit: cover; //crop img to fill box without distortion
+            border-radius: 8px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         }
     }
 
     .archive__item-body {
-        flex: 1;
+        flex: 1; //take up remaining space
+        display: flex;
+        flex-direction: column;
+        justify-content: center; //vertically center text if taller img
+    }
+
+    .archive__item-excerpt.p-summary {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
     }
 }
-// mobile adjust
+
+// MOBILE
 @media (max-width: 600px) {
-  .archive__item--teaser-list {
-    flex-direction: column;
-  }
-  .archive__item-teaser--list-img {
-    width: 100%;
-    height: auto;
-  }
+    .archive__item--teaser-list {
+        flex-direction: column !important;
+        align-items: center !important; //center image and text block
+    }
+
+    .archive__item-teaser--list {
+        flex: 0 0 100% !important;
+        max-width: none !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: center; //horizontally center img
+        margin: 0 auto;
+
+        img {
+            width: 100% !important;
+            height: auto !important;
+            border-radius: 8px;
+            margin-bottom: 0rem; // space between image and title
+        }
+    }
+
+    .archive__item-body {
+        align-items: center !important;
+        justify-content: flex-start !important;
+        width: 100%;
+    }
+
+    .archive__item-title {
+        font-size: 1.5rem !important;
+        text-align: center !important;
+        margin-bottom: 0.5rem;
+    }
+
+    .archive__item-meta {
+        text-align: center !important; //centers reading time
+        margin-bottom: 1rem !important;
+    }
+
+    .archive__item-excerpt {
+        font-size: 1.05rem !important;
+        line-height: 1.6 !important;
+        text-align: center !important;
+        max-width: 100%;
+    }
 }
