@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "La Farmacia"
 ---
 
 Farmacia Deluigi, professionalità ed efficienza al servizio della persona.
