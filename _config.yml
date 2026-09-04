@@ -66,7 +66,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Aperti ogni giorno tranne la Domenica 08:00 - 13:00 e 15:00 - 20:00."
   links:
-    - label: "Via di Mezzo 65, 47923, Rimini"
+    - label: "Raggiungici"
       icon: "fa-solid fa-location-dot fa-lg" 
       url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "Instagram"
