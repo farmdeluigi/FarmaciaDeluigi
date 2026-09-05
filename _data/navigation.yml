@@ -1,4 +1,6 @@
 main:
+   - title: "Servizi"
+     url: "/servizi/"
    - title: "Articoli"
      url: /posts/
    - title: "La Farmacia"

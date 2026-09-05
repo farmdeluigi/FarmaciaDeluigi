@@ -85,6 +85,12 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# output index.html files for each servizi document in the _servizi folder
+collections:
+  servizi:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -104,6 +110,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _servizi
+  - scope:
+      path: ""
+      type: servizi
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+      show_date: true
+      toc: true
+      toc_sticky: true
 
 category_archive:
   type: liquid
