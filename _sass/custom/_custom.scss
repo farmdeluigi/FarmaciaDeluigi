@@ -62,7 +62,7 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
             height: 160px; //~3:2 aspect ratio
             object-fit: cover; //crop img to fill box without distortion
             border-radius: 4px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            //box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         }
     }
 
