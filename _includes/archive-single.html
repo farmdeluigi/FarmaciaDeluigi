@@ -37,8 +37,14 @@
         <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
       </h2>
-      {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt |
-        markdownify | strip_html | truncate: 180 }}</p>{% endif %}
+      {% if post.excerpt %}
+        {% assign excerpt_limit = 180 %}
+        {% if post.collection == 'servizi' %}
+          {% assign excerpt_limit = 140 %} <!-- shorter excerpts for servizi grid -->
+        {% endif %}
+        <p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt |
+        markdownify | strip_html | truncate: excerpt_limit }}</p>
+      {% endif %}
       {% include page__meta.html locale=locale type=include.type %}
     </div>
   </article>
