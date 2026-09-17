@@ -1,7 +1,7 @@
 ---
-title: "Holter Cardiaco"
-excerpt: "Holterone one one"
-permalink: /servizi/holter-cardiaco/
+title: "Tampone Orofaringeo Streptococco A"
+excerpt: "Un tampone potente"
+permalink: /servizi/tampone-orofaringeo-streptococco-A/
 
 header: 
   teaser: /assets/images/profilo-lipidico.jpg
@@ -16,7 +16,7 @@ header:
 # vscode autoformat changes the - to + breaking the page, watch out for that
 sidebar: 
   - title: "Costo"
-    text: "$1000 oppure Mutua"
+    text: "Gratuito?"
     #image: /assets/images/logo.png if you need an image here
     #image_alt: "placehold alt text"
   - title: "Durata"

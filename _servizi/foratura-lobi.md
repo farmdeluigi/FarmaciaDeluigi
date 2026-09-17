@@ -1,7 +1,7 @@
 ---
-title: "Holter Cardiaco"
-excerpt: "Holterone one one"
-permalink: /servizi/holter-cardiaco/
+title: "Foratura Lobi"
+excerpt: "Il foratura lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+permalink: /servizi/foratura-lobi/
 
 header: 
   teaser: /assets/images/profilo-lipidico.jpg

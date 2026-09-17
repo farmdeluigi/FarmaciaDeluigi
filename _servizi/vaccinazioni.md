@@ -1,7 +1,7 @@
 ---
-title: "Holter Cardiaco"
-excerpt: "Holterone one one"
-permalink: /servizi/holter-cardiaco/
+title: "Vaccinazioni"
+excerpt: "La vaccinazione preparazione pressione glicemica lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+permalink: /servizi/vaccinazioni/
 
 header: 
   teaser: /assets/images/profilo-lipidico.jpg

@@ -1,7 +1,7 @@
 ---
-title: "Profilo Lipidico Completo"
-excerpt: "Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
-permalink: /servizi/profilo-lipidico-completo/
+title: "Preparazioni Galeniche"
+excerpt: "La preparazione pressione glicemica lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+permalink: /servizi/preparazioni-galeniche/
 
 header: 
   teaser: /assets/images/profilo-lipidico.jpg
@@ -16,7 +16,7 @@ header:
 # vscode autoformat changes the - to + breaking the page, watch out for that
 sidebar: 
   - title: "Costo"
-    text: "Gratuito"
+    text: "$1000 oppure Mutua"
     #image: /assets/images/logo.png if you need an image here
     #image_alt: "placehold alt text"
   - title: "Durata"

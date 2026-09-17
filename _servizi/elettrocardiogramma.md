@@ -1,7 +1,7 @@
 ---
 title: "Elettrocardiogramma"
-excerpt: "Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
-permalink: /servizi/profilo-lipidico-completo/
+excerpt: "Ti elettriamo il cardio con una gramma"
+permalink: /servizi/elettrocardiogramma/
 
 header: 
   teaser: /assets/images/profilo-lipidico.jpg
@@ -16,11 +16,11 @@ header:
 # vscode autoformat changes the - to + breaking the page, watch out for that
 sidebar: 
   - title: "Costo"
-    text: "Gratuito"
+    text: "$1000 oppure Mutua"
     #image: /assets/images/logo.png if you need an image here
     #image_alt: "placehold alt text"
   - title: "Durata"
-    text: "10 minuti"
+    text: "15 minuti"
 #gallery:
 #  - url: /assets/images/profilo-lipidico.jpg
 #    image_path: assets/images/profilo-lipidico.jpg
