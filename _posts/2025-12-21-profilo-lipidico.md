@@ -1,5 +1,6 @@
 ---
 title: "Profilo Lipidico Completo"
+excerpt: "Il profilo lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
 header:
   overlay_image: /assets/images/profilo-lipidico.jpg
   caption: "Photo credit: [Tahir Xəlfəquliyev](https://www.pexels.com/photo/flat-lay-of-veterinary-medical-supplies-on-table-33394245/)"
