@@ -13,9 +13,6 @@ header:
       url: "https://google.com/"
     - label: "<i class='fa-solid fa-question fa-lg'></i> Come si svolge"
       url: "#come-si-svolge-lesame-in-farmacia" #go directly to section
-
-toc: true
-toc_sticky: true
 # vscode autoformat changes the - to + breaking the page, watch out for that
 sidebar: 
   - title: "Costo"
