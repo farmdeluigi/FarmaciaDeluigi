@@ -119,7 +119,7 @@ defaults:
       author_profile: true
       share: true
       comments: false
-      show_date: true
+      show_date: false
       toc: true
       toc_sticky: true
 
