@@ -38,9 +38,9 @@
         {% endif %}
       </h2>
       {% if post.excerpt %}
-        {% assign excerpt_limit = 180 %}
+        {% assign excerpt_limit = 200 %}
         {% if post.collection == 'servizi' %}
-          {% assign excerpt_limit = 140 %} <!-- shorter excerpts for servizi grid -->
+          {% assign excerpt_limit = 150 %} <!-- shorter excerpts for servizi grid -->
         {% endif %}
         <p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt |
         markdownify | strip_html | truncate: excerpt_limit }}</p>
