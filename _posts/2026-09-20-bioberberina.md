@@ -8,7 +8,7 @@ header:
   overlay_filter: 0.5 #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
   actions:
     - label: "<i class='fa-brands fa-whatsapp fa-lg'></i> Richiedi su Whatsapp"
-      url: "https://wa.me/393342116179&text=TEST%20-%20Datemi%20la%20Bioberberina%20voglio%20Bioberberina"
+      url: "https://wa.me/393342116179?text=TEST%20-%20Datemi%20la%20Bioberberina%20voglio%20Bioberberina"
     - label: "<i class='fa-solid fa-question fa-lg'></i> Proprieta'"
       url: "#proprieta" #goes directly to section
 gallery:
