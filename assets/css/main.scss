@@ -7,7 +7,7 @@ search: false
 
 // Need to import before theme
 @import "custom/variables";
-// Theme will read the variables
+// Theme will then read the variables
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
