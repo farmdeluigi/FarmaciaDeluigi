@@ -50,6 +50,24 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
+        {% comment %}<!-- only show order button when `show_order_section: true` -->{% endcomment %}
+        {% if page.show_order_section %}
+        <div class="post-order-button-container">
+          <div class="notice notice--info">
+            <h3>Vuoi ordinare quanto descritto in questo articolo?</h3>
+            <a href="https://wa.me/393342116179?text=TEST%20-%20Sono%20interessato%20a%20ordinare%20quanto%20descritto%20nel%20post%20intitolato:%20{{ page.title | slugify }}" 
+              class="btn btn--success btn--large">
+              <i class='fa-brands fa-whatsapp fa-lg'></i>
+              Ordina via Whatsapp
+            </a>
+            <a href="mailto" 
+              class="btn btn--info btn--large">
+              <i class='fa-solid fa-envelope fa-lg'></i>
+              Ordina via Email (WIP)
+            </a>
+          </div>
+        </div>
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

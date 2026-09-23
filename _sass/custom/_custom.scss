@@ -1,3 +1,6 @@
+/* importing custom variables file also imports default vars */
+@import "variables";
+
 /* Base color HEX preso dal Logo: #228b37 - https:/*paletton.com/#uid=52T0u0kobn5eBvEjOqIrQiKyfdr */
 $link-color: #0f7125;
 $primary-color: #1E6471;
@@ -10,6 +13,45 @@ $footer-background-color: #055a18;
 - Any property where the browser inspector shows your rule being crossed out by a theme rule with !important.
 Avoid for layout, spacing, and structural changes unless absolutely necessary.
 */
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+$notice-info-border-color: mix(#000, $info-color, 30%) !default;
+
+.notice--info {
+    border-left: 6px solid $notice-info-border-color !important;
+}
+
+/* Increase font size for notice blocks */
+.notice {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.1rem;
+  
+  /* headings and paragraphs also inherit the size */
+  h1, h2, h3, h4, h5, h6, p {
+    font-size: 1.1rem;
+  }
+  /* Buttons too */
+  .btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+    color: #fff; /* avoid btn text getting notice bg color */
+    &:hover{
+        color: #fff;
+    }
+  }
+}
+
+
 
 /* BETTER EXCERPT CLAMPING */
 .archive__item-excerpt{

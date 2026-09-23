@@ -7,8 +7,6 @@ header:
   caption: "Bellissima foto della citicolina."
   overlay_filter: 0.5 #overlay_filter: rgba(255, 0, 0, 0.5) filtro colorato
   actions:
-    - label: "<i class='fa-brands fa-whatsapp fa-lg'></i> Richiedi su Whatsapp"
-      url: "https://wa.me/393342116179?text=TEST%20-%20Datemi%20la%20Citicolina%20voglio%20Citicolina"
     - label: "<i class='fa-solid fa-question fa-lg'></i> Proprieta'"
       url: "#proprieta" #goes directly to section
 gallery:
@@ -16,6 +14,7 @@ gallery:
     image_path: /assets/images/posts/citicolina/citi1.png
     alt: "immagine citicolina 1"
     title: "La citicolina in tutta la Sua Gloria"
+show_order_section: true
 categories:
   - Blog
 tags:

@@ -105,6 +105,7 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      show_order_section: false
   # _pages
   - scope:
       path: "_pages"
