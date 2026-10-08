@@ -1,0 +1,17 @@
+/* Show the Follow button only below 600px */
+@media (min-width: 601px) {
+  .author__urls-wrapper button {
+    display: none !important;
+  }
+  .author__urls-wrapper .author__urls {
+    display: flex !important;
+    flex-direction: column !important;
+    position: static !important;   /* <-- fixes floating */
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+  .author__urls-wrapper .author__urls::before {
+    display: none !important;
+  }
+}

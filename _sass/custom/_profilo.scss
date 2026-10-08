@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+      .h-card {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .author__bio.p-note {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .author__bio.p-note p {
+        font-size: large;
+    }
+}
