@@ -4,20 +4,8 @@
   grid-template-columns: 160px 1fr !important;
   grid-template-rows: auto 1fr !important;
   column-gap: 1rem !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);      
 
-  .archive__item-teaser {
-    img {
-      overflow: hidden;
-      border-radius: 12px 0px 0px 12px;
-    }
-  }
-
-  .archive__item-body {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
 }
 
 .search-content__inner-wrap .archive__item-teaser {
@@ -30,13 +18,15 @@
   height: 120px !important;
   object-fit: cover !important;
   width: 100% !important;
+  overflow: hidden;
+  border-radius: 12px 0px 0px 12px;
 }
 
 .search-content__inner-wrap .archive__item-title {
   grid-column: 2 !important;
   grid-row: 1 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.5rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.2rem !important;
 }
 
 .search-content__inner-wrap .archive__item-excerpt {
