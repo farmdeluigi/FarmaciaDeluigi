@@ -75,15 +75,12 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+    - label: "Mappe Google"
+      icon: "fa-solid fa-location-dot fa-lg"
+      url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/farmaciadeluigi/"
 
 # output index.html files for each servizi document in the _servizi folder
 collections:
