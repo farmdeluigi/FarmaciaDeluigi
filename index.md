@@ -12,16 +12,15 @@ header:
     - label: "Prova"
       url: "/about/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3">Latest release v4.27.3</a></small>
+  Dalla consulenza farmacologica alla cura della persona: offriamo una gamma completa di servizi per la salute, integrando farmaci, prodotti naturali e assistenza dedicata per ogni esigenza della tua famiglia.
 feature_row:
-  - image_path: /assets/images/image.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/posts/citicolina/citi1.png
+    alt: "immagine ricetta"
+    title: "Ricette"
+    excerpt: "Inviaci il tuo Numero di Ricetta Elettronica (NRE) assieme al tuo codice fiscale e passa a ritirare!"
+    url: "/servizi/ricette/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Richiedi Ricetta"
   - image_path: /assets/images/image.png
     alt: "fully responsive"
     title: "Responsive layouts"
