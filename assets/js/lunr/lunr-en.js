@@ -43,11 +43,13 @@ $(document).ready(function() {
     for (var item in result) {
       var ref = result[item].ref;
       if(store[ref].teaser){
+        var badge = store[ref].url.indexOf("/servizi/") !== -1 ? "Servizio" : "Articolo";
         var searchitem =
           '<div class="list__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+                '<span class="search-badge">'+badge+'</span>'+
               '</h2>'+
               '<div class="archive__item-teaser">'+
                 '<img src="'+store[ref].teaser+'" alt="">'+
@@ -57,11 +59,13 @@ $(document).ready(function() {
           '</div>';
       }
       else{
+    	  var badge = store[ref].url.indexOf("/servizi/") !== -1 ? "Servizio" : "Articolo";
     	  var searchitem =
           '<div class="list__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
+                '<span class="search-badge">'+badge+'</span>'+
               '</h2>'+
               '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
             '</article>'+
