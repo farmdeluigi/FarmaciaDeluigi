@@ -1,6 +1,6 @@
 ---
 title: "Holter Pressorio"
-excerpt: "Il holter pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+excerpt: "Monitoraggio della pressione arteriosa in modo continuo per 24 ore, fornisce un quadro dettagliato delle variazioni per diagnosticare l'ipertensione."
 permalink: /servizi/holter-pressorio/
 
 header: 

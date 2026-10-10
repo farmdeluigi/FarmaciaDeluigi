@@ -1,6 +1,6 @@
 ---
 title: "Analisi Glicemia"
-excerpt: "L'analisi glicemica lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+excerpt: "Il primo passo essenziale per valutare il metabolismo degli zuccheri nel sangue e individuare precocemente stati di prediabete. Da condurre a digiuno."
 permalink: /servizi/analisi-glicemia/
 
 header: 

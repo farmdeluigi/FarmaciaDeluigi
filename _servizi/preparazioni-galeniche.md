@@ -1,6 +1,6 @@
 ---
 title: "Preparazioni Galeniche"
-excerpt: "La preparazione pressione glicemica lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+excerpt: "Possibilita' di personalizzare farmaci e cosmetici in base alle specifiche esigenze del paziente, adattando dosaggi e formulazioni."
 permalink: /servizi/preparazioni-galeniche/
 
 header: 

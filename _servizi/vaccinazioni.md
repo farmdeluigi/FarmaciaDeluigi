@@ -1,6 +1,6 @@
 ---
 title: "Vaccinazioni"
-excerpt: "La vaccinazione preparazione pressione glicemica lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+excerpt: "Strumenti efficaci per la prevenzione delle malattie infettive, proteggendo la salute individuale e comunitaria con immunizzazioni professionali e sicure."
 permalink: /servizi/vaccinazioni/
 
 header: 

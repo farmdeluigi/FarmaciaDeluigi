@@ -1,6 +1,6 @@
 ---
 title: "Analisi Emoglobina Glicata"
-excerpt: "Il analisi emoglobina glicata lipidico completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+excerpt: "Un esame fondamentale per valutare il controllo metabolico nel lungo periodo, fornendo una media precisa della glicemia degli ultimi tre mesi."
 permalink: /servizi/analisi-emoglobina-glicata/
 
 header: 

@@ -1,6 +1,6 @@
 ---
 title: "Tampone Covid e Covid/Influenza"
-excerpt: "Il tampone covid lobi pressorio completo è un esame estremamente efficace allo scopo di valutare lo stato di salute cardiovascolare e monitorare il metabolismo dei grassi nel sangue."
+excerpt: "L'esame diagnostico più affidabile per individuare la presenza di infezioni respiratorie acute come SARS-CoV-2 e virus influenzali."
 permalink: /servizi/tampone-covid-influenza/
 
 header: 

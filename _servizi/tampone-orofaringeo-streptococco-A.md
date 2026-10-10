@@ -1,6 +1,6 @@
 ---
 title: "Tampone Orofaringeo Streptococco A"
-excerpt: "Un tampone potente"
+excerpt: "Permette di diagnosticare con certezza le infezioni batteriche della gola, distinguendole da quelle virali per una terapia mirata."
 permalink: /servizi/tampone-orofaringeo-streptococco-A/
 
 header: 

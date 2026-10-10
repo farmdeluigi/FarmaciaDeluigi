@@ -1,6 +1,6 @@
 ---
 title: "Holter Cardiaco"
-excerpt: "Holterone one one"
+excerpt: "Registrazione del battito del cuore per 24 o 48 ore durante le normali attività quotidiane, cattura eventi intermittenti non rilevabili con un elettrocardiogramma standard."
 permalink: /servizi/holter-cardiaco/
 
 header: 

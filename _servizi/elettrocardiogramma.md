@@ -1,6 +1,6 @@
 ---
 title: "Elettrocardiogramma"
-excerpt: "Ti elettriamo il cardio con una gramma"
+excerpt: "L'esame principale per registrare l'attività elettrica del cuore e rilevare eventuali anomalie del ritmo o della conduzione cardiaca."
 permalink: /servizi/elettrocardiogramma/
 
 header: 
