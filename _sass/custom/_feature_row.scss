@@ -10,6 +10,9 @@
 .feature__item .archive__item-teaser {
   aspect-ratio: 16 / 9 !important; /* 4 / 3 - 1 / 1 */
   overflow: hidden !important;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
 }
 
 .feature__item .archive__item-teaser img {
@@ -25,4 +28,20 @@
 .feature__item .archive__item-excerpt {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+
+.feature__item {
+  .archive__item {
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.14);
+        -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.14);
+        
+        min-height: 3rem; /* 48px touch target */
+
+        margin: 0.2rem;
+  }
 }

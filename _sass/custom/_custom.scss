@@ -73,39 +73,43 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
 }
 /* END BETTER EXCERPT CLAMPING */
 
-.archive__item {
-    border: 1px solid #00b32a00; /*transparent border so we can make it appear on hover without shifting content */
-    border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
-    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
-    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
-
-    margin: 1rem;
-
-    min-height: 3rem; /* 48px touch target */
-
-    transition:
+.list__item,
+.grid__item {
+  .archive__item {
+        border: 1px solid #00b32a00; /*transparent border so we can make it appear on hover without shifting content */
+        border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+        -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+        -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+        
+        margin: 1rem;
+        
+        min-height: 3rem; /* 48px touch target */
+        
+        transition:
         transform 250ms ease-out,
         box-shadow 250ms ease-out,
         background-color 200ms ease;
+        
+        &:hover {
+            transform: translateY(-2px) scale(1.01);
+            background-color: #00d9ff1a; /* $primary-color with reduced opacity */
+            border: 1px solid #9119198a;
 
-    &:hover {
-        transform: translateY(-2px) scale(1.01);
-        background-color: #00d9ff1a; /* $primary-color with reduced opacity */
-        border: 1px solid #9119198a;
-
-        box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
-        -webkit-box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
-        -moz-box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
+            box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
+            -webkit-box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
+            -moz-box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
+        }
+    }
+    
+    .archive__item-title a {
+        color: $link-color !important;
     }
 }
 
-.archive__item-title a {
-    color: $link-color !important;
-}
 
 /* left-aligned teaser */
 .archive__item {
