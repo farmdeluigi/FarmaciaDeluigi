@@ -5,6 +5,14 @@ layout: archive
 
 {{ content }}
 
+{% if page.header.actions %}
+  <div style="text-align: left; margin-bottom: 0;">
+    {% for action in page.header.actions %}
+      <a href="{{ action.url | relative_url }}" class="btn {{ action.btn_class | default: 'btn--primary' }}">{{ action.label }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
