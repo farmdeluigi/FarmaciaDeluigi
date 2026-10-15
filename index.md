@@ -9,32 +9,32 @@ header:
   actions:
     - label: "<i class='fa-solid fa-location-dot fa-lg'></i> Trovaci"
       url: "/trovaci/"
-    - label: "Prova"
-      url: "/about/"
+    - label: "<i class='fab fa-instagram fa-lg'></i> Seguici"
+      url: "https://www.instagram.com/farmaciadeluigi/"
 excerpt: >
   Dalla consulenza farmacologica alla cura della persona: offriamo una gamma completa di servizi per la salute, integrando farmaci, prodotti naturali e assistenza dedicata per ogni esigenza della tua famiglia.
 feature_row:
   - image_path: /assets/images/posts/citicolina/citi1.png
     alt: "immagine ricetta"
-    title: "Ricette"
+    title: "Ricette Telematiche"
     excerpt: "Inviaci il tuo Numero di Ricetta Elettronica (NRE) assieme al tuo codice fiscale e passa a ritirare!"
     url: "/servizi/ricette/"
     btn_class: "btn--primary"
     btn_label: "Richiedi Ricetta"
-  - image_path: /assets/images/image.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/articles-cover.jpg
+    alt: "alt text"
+    title: "Articoli Informativi"
+    excerpt: "Dove ti spieghiamo benefici e funzionamento di prodotti e servizi"
+    url: "/posts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/image.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Vai agli Articoli"
+  - image_path: /assets/images/bio-photo.jpg
+    alt: "alt text"
+    title: "Vicina a Te"
+    excerpt: "Situata nel centro di Rimini e facilmente raggiungibile passando dal parco marecchia!"
+    url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
+    btn_class: "btn--info"
+    btn_label: "<i class='fa-solid fa-location-dot fa-lg'></i> Apri Mappe"      
 ---
 
 {% include feature_row %}
