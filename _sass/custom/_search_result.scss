@@ -4,22 +4,28 @@
   grid-template-columns: 180px 1fr !important;
   grid-template-rows: auto auto !important;
   column-gap: 1rem !important;
+  padding-bottom: 0 !important;
 }
 
 .search-content__inner-wrap .archive__item-teaser {
   grid-column: 1 !important;
   grid-row: 1 / span 2 !important;
   margin-bottom: 0 !important;
-  height: 100% !important; /* Forces it to fill the grid cell height */
   overflow: hidden !important;
   border-radius: 10px 0px 0px 10px;
+  position: relative !important;
 }
 
 .search-content__inner-wrap .archive__item-teaser img {
-  height: 140px !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
   object-fit: cover !important;
-  width: 100% !important;
-  overflow: hidden;
 }
 
 .search-content__inner-wrap .archive__item-title {
@@ -34,8 +40,9 @@
   grid-column: 2 !important;
   grid-row: 2 !important;
   margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  align-self: start !important;   /* prevent vertical centering */
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem !important;
+  align-self: start !important;
 }
 
 .search-badge {
