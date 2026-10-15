@@ -8,7 +8,7 @@ header:
   overlay_image: 
   actions:
     - label: "<i class='fa-solid fa-location-dot fa-lg'></i> Trovaci"
-      url: "/trovaci/"
+      url: "https://maps.app.goo.gl/obzUey49VVpSMnSX8"
     - label: "<i class='fab fa-instagram fa-lg'></i> Seguici"
       url: "https://www.instagram.com/farmaciadeluigi/"
 excerpt: >
