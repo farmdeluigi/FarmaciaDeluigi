@@ -14,7 +14,7 @@ header:
 excerpt: >
   Dalla consulenza farmacologica alla cura della persona: offriamo una gamma completa di servizi per la salute, integrando farmaci, prodotti naturali e assistenza dedicata per ogni esigenza della tua famiglia.
 feature_row:
-  - image_path: /assets/images/posts/citicolina/citi1.png
+  - image_path: /assets/images/ricette-cover.jpg
     alt: "immagine ricetta"
     title: "Ricette Telematiche"
     excerpt: "Inviaci il tuo Numero di Ricetta Elettronica (NRE) assieme al tuo codice fiscale e passa a ritirare!"
