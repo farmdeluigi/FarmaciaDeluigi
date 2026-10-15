@@ -1,0 +1,28 @@
+.feature__item {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.page__content p {
+  margin-bottom: 0.6rem;
+}
+
+.feature__item .archive__item-teaser {
+  aspect-ratio: 16 / 9 !important; /* 4 / 3 - 1 / 1 */
+  overflow: hidden !important;
+}
+
+.feature__item .archive__item-teaser img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.feature__item .archive__item-title {
+  margin-top: 0.2rem !important;
+}
+
+.feature__item .archive__item-excerpt {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}

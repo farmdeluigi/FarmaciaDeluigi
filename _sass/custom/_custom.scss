@@ -15,12 +15,14 @@ Avoid for layout, spacing, and structural changes unless absolutely necessary.
 */
 
 .btn {
-  transition: all 0.3s ease;
+  transition: all 250ms ease;
+
+  border-radius: 32px;
 }
 
 .btn:hover {
   transform: translateY(-2px); /* Subtle lift effect */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.20);
 }
 
 $notice-info-border-color: mix(#000, $info-color, 30%) !default;
@@ -73,7 +75,13 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
 
 .archive__item {
     border: 1px solid #00b32a00; /*transparent border so we can make it appear on hover without shifting content */
-    border-radius: 12px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
 
     margin: 1rem;
 
@@ -85,10 +93,13 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
         background-color 200ms ease;
 
     &:hover {
-        transform: translateY(-4px) scale(1.02);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        transform: translateY(-2px) scale(1.01);
         background-color: #00d9ff1a; /* $primary-color with reduced opacity */
-        border: 1px solid #ff2d2d8a;
+        border: 1px solid #9119198a;
+
+        box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
+        -webkit-box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
+        -moz-box-shadow: 0px 4px 14px 2px rgba(0,0,0,0.20);
     }
 }
 
@@ -101,13 +112,12 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
     &.archive__item--teaser-list {
         display: flex;
         align-items: stretch;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 
         .archive__item-body {
             .page__meta {
                 margin-top: auto;
                 align-self: flex-end;
-                font-size: 0.75rem;
+                font-size: 0.76rem;
             }
         }
     }
@@ -123,21 +133,29 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
             height: 160px; /*~3:2 aspect ratio*/
             object-fit: cover; /*crop img to fill box without distortion*/
             overflow: hidden;
-            border-radius: 12px 0px 0px 12px;
+            border-radius: 10px 0px 0px 10px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .archive__item-teaser--list {
+            img {
+                border-radius: 10px 10px 0px 0px;
+            }
         }
     }
 
     .archive__item-body {
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-top: 0.48rem;
+        margin-left: 0.48rem;
+        margin-right: 0.48rem;
         flex: 1; /*take up remaining space*/
         display: flex;
         flex-direction: column;
     }
 
     .archive__item-excerpt.p-summary {
-        font-size: 0.85rem;
+        font-size: 0.86rem;
         margin-bottom: 0;
     }
 }
@@ -159,7 +177,7 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
         img {
             width: 100% !important;
             height: auto !important;
-            border-radius: 8px;
+            border-radius: 10px 10px 0px 0px;
         }
     }
 
@@ -170,12 +188,12 @@ $notice-info-border-color: mix(#000, $info-color, 30%) !default;
     }
 
     .archive__item-title {
-        font-size: 1.5rem !important;
+        font-size: 1.6rem !important;
         text-align: center !important;
     }
 
     .archive__item-excerpt {
-        font-size: 1.10rem !important;
+        font-size: 1.12rem !important;
         text-align: center !important;
         max-width: 100%;
     }
